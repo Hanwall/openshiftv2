@@ -1,0 +1,112 @@
+<!--{template common/header}-->
+<style id="diy_style" type="text/css"></style>
+
+<div class="wp"> 
+  <!--[diy=diy1]--><div id="diy1" class="area"></div><!--[/diy]--> 
+</div>
+<div class="wp ptm cl">
+  <div class="content ">
+    <div class="main">
+      <div class="focus-wrap cl">
+        <div class="focus-img">
+          <div class="slider">
+          <!--[diy=yunshanaliyundiy1]--><div id="yunshanaliyundiy1" class="area"></div><!--[/diy]--> 
+          </div>
+        </div>
+        <div class="focus-topic">
+          <!--[diy=yunshanaliyundiy2]--><div id="yunshanaliyundiy2" class="area"></div><!--[/diy]-->
+         </div>
+      </div>
+      <!-- /焦点区域 -->
+      <div class="login-info-wrap cl">
+        <dl class="unlogin-info"><!--[diy=yunshanaliyundiy3]--><div id="yunshanaliyundiy3" class="area"></div><!--[/diy]--></dl>
+      </div>
+      <!-- 帖子信息 -->
+      <div class="section top-category cl">
+        <h3 class="ys_title">热门精华</h3>
+        <div class="con">
+          <div class="box even first-box"><!--[diy=yunshanaliyundiy4]--><div id="yunshanaliyundiy4" class="area"></div><!--[/diy]--></div>
+          <!-- /行业资讯 -->
+          <div class="box odd second-box"><!--[diy=yunshanaliyundiy5]--><div id="yunshanaliyundiy5" class="area"></div><!--[/diy]--></div>
+          <!-- /产品服务 -->
+          <div class="cl"></div>
+          <div class="box even third-box"><!--[diy=yunshanaliyundiy6]--><div id="yunshanaliyundiy6" class="area"></div><!--[/diy]--></div>
+          <!-- /技术教程 -->
+          <div class="box odd fourth-box"><!--[diy=yunshanaliyundiy7]--><div id="yunshanaliyundiy7" class="area"></div><!--[/diy]--></div>
+          <!-- /开发者交流 --> 
+      	</div>  
+      </div>
+      <!-- /热门精华 -->
+      <div class="section special-column">
+      	<h3 class="ys_title">云专栏</h3>
+      	<div class="con cl">
+            <div class="column-item"><!--[diy=yunshanaliyundiy8]--><div id="yunshanaliyundiy8" class="area"></div><!--[/diy]--></div>
+            <div class="column-item"><!--[diy=yunshanaliyundiy9]--><div id="yunshanaliyundiy9" class="area"></div><!--[/diy]--></div>
+            <div class="column-item"><!--[diy=yunshanaliyundiy10]--><div id="yunshanaliyundiy10" class="area"></div><!--[/diy]--></div>
+            <div class="column-item"><!--[diy=yunshanaliyundiy11]--><div id="yunshanaliyundiy11" class="area"></div><!--[/diy]--></div>
+        </div>
+      </div>
+      <!-- /专栏 --> 
+
+      <!--/主体  推荐内容--> 
+    </div>
+  </div>
+  <!-- /content -->
+  
+  <div class="sidebar-index">
+    <div class="theme-wrap">
+     <!--[diy=yunshanaliyundiy12]--><div id="yunshanaliyundiy12" class="area"></div><!--[/diy]-->
+        
+      
+    </div>
+    <!-- /top主题列表 -->
+    <div class="post-subject mbm"> <a href="forum.php?mod=misc&action=nav" onclick="showWindow('nav', this.href, 'get', 0)" class="post-btn"><span>发表主题</span></a> </div>
+    <!-- /发表主题 -->
+  
+    <div class="section hot-plate">
+      <h3 class="ys_title">热门版块</h3>
+      <div class="con">
+      <!--[diy=yunshanaliyundiy13]--><div id="yunshanaliyundiy13" class="area"></div><!--[/diy]-->  
+           </div>
+    </div>
+    <div class="section weeky-daren">
+      <h3 class="ys_title">每周达人推荐</h3>
+      <div class="con">
+        
+        
+         <!--[diy=yunshanaliyundiy14]--><div id="yunshanaliyundiy14" class="area"></div><!--[/diy]-->
+         
+         
+        
+          <!--[diy=yunshanaliyundiy15]--><div id="yunshanaliyundiy15" class="area"></div><!--[/diy]-->
+        
+        
+          <!--[diy=yunshanaliyundiy16]--><div id="yunshanaliyundiy16" class="area"></div><!--[/diy]-->
+   
+      </div>
+    </div>
+    <!-- /每周达人推荐 --> 
+    <!-- /热门版块 -->
+    <div class="latest-post-wrap">
+    <!--[diy=yunshanaliyundiy17]--><div id="yunshanaliyundiy17" class="area"></div><!--[/diy]-->
+     </div>
+    <!-- /帖子列表 -->
+    <div class="section yun-weibo">
+      <h3 class="ys_title">阿里云媒体</h3>
+      <div class="con">
+      <!--[diy=yunshanaliyundiy20]--><div id="yunshanaliyundiy20" class="area"></div><!--[/diy]-->
+      </div>
+    </div>
+    <!-- /阿里云微博 --> 
+  </div>
+  <!-- /sidebar -->
+  
+</div>
+<div class="wp cl">
+  <div class="section friendlinks">
+    <h3 class="ys_title">友情链接</h3>
+    <div class="con"><!--[diy=yunshanaliyundiy201]--><div id="yunshanaliyundiy201" class="area"></div><!--[/diy]--></div>
+  </div>
+</div>
+<!--{template common/footer}--> 
+

@@ -1,0 +1,35 @@
+/* CSS Document */
+.xs4{ font-size:18px !important;}
+.pnc, a.pnc{ border-color:#00A2CA; background-color:#00A2CA;}
+
+.wp{ margin:0 auto; width:1200px; max-width: 1200px;}
+.ct2_a .mn{ width:1020px;}
+.ct2 .mn{ width:960px;}
+#toptb{ background:#fff; border-bottom:1px solid #efefef;}
+#nv{ border-bottom:1px solid #E5E5E5; background:#00A2CA none;}
+#nv li { float: left; padding-right: 1px; height: 33px; line-height: 33px; background:none; font-weight: 700; font-size: 14px; }
+					.ie_all #nv li { line-height: 36px; }
+					.ie6 #nv li { line-height: 33px; }
+					#nv li a { float: left; padding: 0 15px; height: 33px; }
+						#nv li a { color: {MENUTEXT}; }
+						#nv li span { display: none; }
+					#nv li.a { margin-left: -1px; {MENUHOVERBGCODE}; }
+						#nv li.a a { color: {MENUHOVERTEXT}; }
+						#nv li a:hover { background:none; }
+						#nv li.hover a:hover, #nv li.hover a { background:none; }
+#mu ul{ background:#f8f8f8 none; border-bottom:#dedede;}
+.bm{ border-width:0;}
+#scbar{ background:#FBFBFB;}
+.chart em{ color:#333;}
+.chart .numbers{ font-family:Georgia; font-size:18px;}
+.pg{ float:left;}
+.pg a, .pg strong, .pgb a, .pg label{ border-color:#DFDFDF; border-radius:3px;}
+.pg strong{ background-color:#00A2CA;border-color: #00A2CA; color:#fff;}
+.pg a:hover, .pgb a:hover { background-color:#00A2CA;border-color:#00A2CA; color:#fff; }
+
+.pgs #newspecial, .pgs #newspecialtmp, .pgs #post_reply, .pgs #post_replytmp{ float:right;}
+
+
+.tedt {
+  border-color: #DFDFDF #DEDEDE #DEDEDE #DFDFDF;
+}

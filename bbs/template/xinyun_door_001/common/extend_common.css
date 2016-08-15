@@ -1,0 +1,50 @@
+/* Õ®”√«¯”Ú  */
+body{ background:none;}
+.frame-1 {
+background-color:transparent !important;
+background-image:none !important;
+border:0 none !important;
+margin:0 !important;
+padding:0 !important;
+border-width:0px;
+height: auto
+}
+.frame-1-c {
+background-color:transparent !important;
+background-image:none !important;
+border:0 none !important;
+margin:0 !important;
+padding:0 !important;
+border-width:0px;
+height: auto;
+}
+.move-span{
+background-color:transparent !important;
+background-image:none !important;
+border:0 none !important;
+margin:0 !important;
+padding:0 !important;
+border-width:0px;
+height:auto;}
+.move-span .content{
+background-color:transparent !important;
+background-image:none !important;
+border:0 none !important;
+margin:0 !important;
+padding:0 !important;
+border-width:0px;
+height:auto;}
+#toptb{ background:none repeat scroll 0 0 #EEEEEE; border-bottom:0px;}
+.h_pop a{ padding:10px;border-bottom:1px solid #f1f8f7;}
+.p_pop, .p_pof, .sllt{ padding:0px;}
+.p_pop a:hover,.p_pop a.a,#sctype_menu .sca{background-color:#EEEEEE;color:#000;text-decoration:none;}
+#qmenu{ margin:12px 12px 0; color:#999999}
+.hdc{ min-height:80px;}
+#hd h2{ padding:0px 20px 8px 0}
+.scbar_btn_td{ background:url({STYLEIMGDIR}/search.png) no-repeat scroll 8px -142px transparent}
+
+#nv{ background:none repeat scroll 0 0 #00aadd; height:50px; line-height:50px;}
+#nv li{background:none; height:50px; line-height:50px; font-weight:bold; font-size:15px;}
+#nv li a{ height:50px; line-height:50px; padding:0px 20px;}
+#nv li.a, #nv li a:hover, #nv li.a:hover, #nv li.hover a, #nv li.hover a:hover{ background:none repeat scroll 0 0 #0979b1;height:50px; line-height:50px; text-decoration:none;}
+
