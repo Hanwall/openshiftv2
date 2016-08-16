@@ -1,6 +1,6 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); hookscriptoutput('register');
 0
-|| checktplrefresh('./template/default/touch/member/register.htm', './template/default/touch/common/seccheck.htm', 1470650988, '1', './data/template/1_1_touch_member_register.tpl.php', './template/default', 'touch/member/register')
+|| checktplrefresh('./template/default/touch/member/register.htm', './template/default/touch/common/seccheck.htm', 1470893257, '1', './data/template/1_1_touch_member_register.tpl.php', './template/default', 'touch/member/register')
 ;?><?php include template('common/header'); ?><!-- header start -->
 <header class="header">
     <div class="nav">

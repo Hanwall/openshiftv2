@@ -1,6 +1,6 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); hookscriptoutput('login');
 0
-|| checktplrefresh('./template/default/mobile/member/login.htm', './template/default/mobile/common/seccheck.htm', 1470468002, '1', './data/template/1_1_mobile_member_login.tpl.php', './template/default', 'mobile/member/login')
+|| checktplrefresh('./template/default/mobile/member/login.htm', './template/default/mobile/common/seccheck.htm', 1470851271, '1', './data/template/1_1_mobile_member_login.tpl.php', './template/default', 'mobile/member/login')
 ;?><?php include template('common/header'); $loginhash = 'L'.random(4);?><div class="box"><a href="forum.php">返回论坛</a><span class="pipe">|</span><a href="javascript:history.back();" onclick="javascript:history.back();" title="返回上一页" >返回上一页</a></div>
 <div class="bm mtn">
 <div class="bm_h">登录</div>

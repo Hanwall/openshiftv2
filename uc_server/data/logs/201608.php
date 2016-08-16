@@ -23,5 +23,22 @@
 <?PHP exit;?>	admin	115.194.111.186	1470663109	user_delete	uid=6
 <?PHP exit;?>	admin	115.194.111.186	1470663205	user_delete	uid=7
 <?PHP exit;?>	admin	115.194.111.186	1470663252	user_delete	uid=5
-<?PHP exit;?>	admin	115.194.111.186	1470736344	login	succeed
-<?PHP exit;?>	admin	115.194.111.186	1470736382	app_edit	appid=1
+<?PHP exit;?>	admin	115.194.111.186	1470739890	login	succeed
+<?PHP exit;?>	admin	115.199.55.147	1471346319	login	succeed
+<?PHP exit;?>	admin	115.199.55.147	1471346470	user_delete	uid=1
+<?PHP exit;?>	admin	115.199.55.147	1471346497	user_add	username=admin
+<?PHP exit;?>	admin	115.199.55.147	1471346858	app_edit	appid=1
+<?PHP exit;?>	admin	115.199.55.147	1471346861	app_edit	appid=1
+<?PHP exit;?>		115.199.55.147	1471348436	logout	
+<?PHP exit;?>	admin	115.199.55.147	1471348446	login	error: user=admin; password=haihua
+<?PHP exit;?>	UCenterAdministrator	115.199.55.147	1471348494	login	succeed
+<?PHP exit;?>		115.199.55.147	1471348590	logout	
+<?PHP exit;?>	UCenterAdministrator	115.199.55.147	1471348613	login	error: user=UCenterAdministrator; password=HAIHUA
+<?PHP exit;?>	UCenterAdministrator	115.199.55.147	1471348627	login	error: user=UCenterAdministrator; password=123456
+<?PHP exit;?>	UCenterAdministrator	115.199.55.147	1471349352	login	succeed
+<?PHP exit;?>	UCenterAdministrator	115.199.55.147	1471349507	admin_pw_edit	
+<?PHP exit;?>	UCenterAdministrator	115.199.55.147	1471350456	user_delete	uid=8
+<?PHP exit;?>	UCenterAdministrator	115.199.55.147	1471350492	user_add	username=admin
+<?PHP exit;?>	UCenterAdministrator	115.199.55.147	1471350816	admin_add	username=haihua
+<?PHP exit;?>		115.199.55.147	1471350919	logout	
+<?PHP exit;?>	haihua	115.199.55.147	1471350930	login	succeed

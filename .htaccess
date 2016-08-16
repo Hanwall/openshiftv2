@@ -1,4 +1,0 @@
-
-RewriteEngine On
-RewriteCond %{HTTP_HOST} ^web-hanwall.rhcloud.com$
-RewriteRule (.*)$ https://huizhouhs.com/$1 [R=301,L]

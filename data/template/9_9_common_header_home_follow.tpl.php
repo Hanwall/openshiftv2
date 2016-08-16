@@ -1,8 +1,8 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); 
 0
-|| checktplrefresh('./template/default/common/header.htm', './template/default/common/header_common.htm', 1470568405, '9', './data/template/9_9_common_header_home_follow.tpl.php', './template/xinyun_door_001', 'common/header_home_follow')
-|| checktplrefresh('./template/default/common/header.htm', './template/default/common/header_qmenu.htm', 1470568405, '9', './data/template/9_9_common_header_home_follow.tpl.php', './template/xinyun_door_001', 'common/header_home_follow')
-|| checktplrefresh('./template/default/common/header.htm', './template/default/common/pubsearchform.htm', 1470568405, '9', './data/template/9_9_common_header_home_follow.tpl.php', './template/xinyun_door_001', 'common/header_home_follow')
+|| checktplrefresh('./template/default/common/header.htm', './template/default/common/header_common.htm', 1471347077, '9', './data/template/9_9_common_header_home_follow.tpl.php', './template/xinyun_door_001', 'common/header_home_follow')
+|| checktplrefresh('./template/default/common/header.htm', './template/default/common/header_qmenu.htm', 1471347077, '9', './data/template/9_9_common_header_home_follow.tpl.php', './template/xinyun_door_001', 'common/header_home_follow')
+|| checktplrefresh('./template/default/common/header.htm', './template/default/common/pubsearchform.htm', 1471347077, '9', './data/template/9_9_common_header_home_follow.tpl.php', './template/xinyun_door_001', 'common/header_home_follow')
 ;?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">

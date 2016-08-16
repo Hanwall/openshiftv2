@@ -1,11 +1,11 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); hookscriptoutput('space_profile');
 0
-|| checktplrefresh('./template/default/home/space_profile.htm', './template/default/home/space_header.htm', 1470536700, '9', './data/template/9_9_home_space_profile.tpl.php', './template/xinyun_door_001', 'home/space_profile')
-|| checktplrefresh('./template/default/home/space_profile.htm', './template/default/home/space_profile_body.htm', 1470536700, '9', './data/template/9_9_home_space_profile.tpl.php', './template/xinyun_door_001', 'home/space_profile')
-|| checktplrefresh('./template/default/home/space_profile.htm', './template/default/home/space_userabout.htm', 1470536700, '9', './data/template/9_9_home_space_profile.tpl.php', './template/xinyun_door_001', 'home/space_profile')
-|| checktplrefresh('./template/default/home/space_profile.htm', './template/default/common/header_common.htm', 1470536700, '9', './data/template/9_9_home_space_profile.tpl.php', './template/xinyun_door_001', 'home/space_profile')
-|| checktplrefresh('./template/default/home/space_profile.htm', './template/default/home/space_diy.htm', 1470536700, '9', './data/template/9_9_home_space_profile.tpl.php', './template/xinyun_door_001', 'home/space_profile')
-|| checktplrefresh('./template/default/home/space_profile.htm', './template/default/home/space_header_personalnv.htm', 1470536700, '9', './data/template/9_9_home_space_profile.tpl.php', './template/xinyun_door_001', 'home/space_profile')
+|| checktplrefresh('./template/default/home/space_profile.htm', './template/default/home/space_header.htm', 1470740228, '9', './data/template/9_9_home_space_profile.tpl.php', './template/xinyun_door_001', 'home/space_profile')
+|| checktplrefresh('./template/default/home/space_profile.htm', './template/default/home/space_profile_body.htm', 1470740228, '9', './data/template/9_9_home_space_profile.tpl.php', './template/xinyun_door_001', 'home/space_profile')
+|| checktplrefresh('./template/default/home/space_profile.htm', './template/default/home/space_userabout.htm', 1470740228, '9', './data/template/9_9_home_space_profile.tpl.php', './template/xinyun_door_001', 'home/space_profile')
+|| checktplrefresh('./template/default/home/space_profile.htm', './template/default/common/header_common.htm', 1470740228, '9', './data/template/9_9_home_space_profile.tpl.php', './template/xinyun_door_001', 'home/space_profile')
+|| checktplrefresh('./template/default/home/space_profile.htm', './template/default/home/space_diy.htm', 1470740228, '9', './data/template/9_9_home_space_profile.tpl.php', './template/xinyun_door_001', 'home/space_profile')
+|| checktplrefresh('./template/default/home/space_profile.htm', './template/default/home/space_header_personalnv.htm', 1470740228, '9', './data/template/9_9_home_space_profile.tpl.php', './template/xinyun_door_001', 'home/space_profile')
 ;?>
 <?php if($_G['setting']['homepagestyle']) { $_G[cookie][extstyle] = false;?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">

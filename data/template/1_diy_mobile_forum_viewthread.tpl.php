@@ -1,7 +1,7 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); hookscriptoutput('viewthread');
 0
-|| checktplrefresh('./template/default/mobile/forum/viewthread.htm', './template/default/mobile/forum/forumdisplay_fastpost.htm', 1470467315, 'diy', './data/template/1_diy_mobile_forum_viewthread.tpl.php', './template/default', 'mobile/forum/viewthread')
-|| checktplrefresh('./template/default/mobile/forum/viewthread.htm', './template/default/mobile/common/seccheck.htm', 1470467315, 'diy', './data/template/1_diy_mobile_forum_viewthread.tpl.php', './template/default', 'mobile/forum/viewthread')
+|| checktplrefresh('./template/default/mobile/forum/viewthread.htm', './template/default/mobile/forum/forumdisplay_fastpost.htm', 1470851314, 'diy', './data/template/1_diy_mobile_forum_viewthread.tpl.php', './template/default', 'mobile/forum/viewthread')
+|| checktplrefresh('./template/default/mobile/forum/viewthread.htm', './template/default/mobile/common/seccheck.htm', 1470851314, 'diy', './data/template/1_diy_mobile_forum_viewthread.tpl.php', './template/default', 'mobile/forum/viewthread')
 ;?><?php include template('common/header'); if($_G['forum']['type'] != 'sub') { ?>
 <div class="box"><a href="forum.php"><?php echo $_G['setting']['navs']['2']['navname'];?></a> <em> &gt; </em> <a href="forum.php?mod=forumdisplay&amp;fid=<?php echo $_G['fid'];?>"><?php echo strip_tags($_G['forum']['name']) ? strip_tags($_G['forum']['name']) : $_G['forum']['name'];?></a></div>
 <?php } else { if($_G['forum']['status'] != 3) { ?>

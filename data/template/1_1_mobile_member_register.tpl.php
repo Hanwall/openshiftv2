@@ -1,6 +1,6 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); hookscriptoutput('register');
 0
-|| checktplrefresh('./template/default/mobile/member/register.htm', './template/default/mobile/common/seccheck.htm', 1470651609, '1', './data/template/1_1_mobile_member_register.tpl.php', './template/default', 'mobile/member/register')
+|| checktplrefresh('./template/default/mobile/member/register.htm', './template/default/mobile/common/seccheck.htm', 1470893260, '1', './data/template/1_1_mobile_member_register.tpl.php', './template/default', 'mobile/member/register')
 ;?><?php include template('common/header'); ?><div class="box"><a href="<?php if($forcefid) { ?>forum.php?mod=forumdisplay<?php echo $forcefid;?><?php } else { ?>forum.php<?php } ?>" title="返回论坛">返回论坛</a><span class="pipe">|</span><a href="javascript:history.back();" onclick="javascript:history.back();" title="返回上一页" >返回上一页</a></div>
 <form method="post" autocomplete="off" name="register" id="registerform" enctype="multipart/form-data" action="member.php?mod=<?php echo $_G['setting']['regname'];?>&amp;mobile=yes">
 <input type="hidden" name="regsubmit" value="yes" />

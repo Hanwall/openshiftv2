@@ -1,13 +1,13 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); hookscriptoutput('spacecp_profile');
 0
-|| checktplrefresh('./template/default/home/spacecp_profile.htm', './template/default/home/spacecp_header.htm', 1470568495, '9', './data/template/9_9_home_spacecp_profile.tpl.php', './template/xinyun_door_001', 'home/spacecp_profile')
-|| checktplrefresh('./template/default/home/spacecp_profile.htm', './template/default/home/spacecp_footer.htm', 1470568495, '9', './data/template/9_9_home_spacecp_profile.tpl.php', './template/xinyun_door_001', 'home/spacecp_profile')
-|| checktplrefresh('./template/default/home/spacecp_profile.htm', './template/default/common/seccheck.htm', 1470568495, '9', './data/template/9_9_home_spacecp_profile.tpl.php', './template/xinyun_door_001', 'home/spacecp_profile')
-|| checktplrefresh('./template/default/home/spacecp_profile.htm', './template/default/home/spacecp_profile_nav.htm', 1470568495, '9', './data/template/9_9_home_spacecp_profile.tpl.php', './template/xinyun_door_001', 'home/spacecp_profile')
-|| checktplrefresh('./template/default/home/spacecp_profile.htm', './template/default/common/seditor.htm', 1470568495, '9', './data/template/9_9_home_spacecp_profile.tpl.php', './template/xinyun_door_001', 'home/spacecp_profile')
-|| checktplrefresh('./template/default/home/spacecp_profile.htm', './template/default/home/spacecp_footer.htm', 1470568495, '9', './data/template/9_9_home_spacecp_profile.tpl.php', './template/xinyun_door_001', 'home/spacecp_profile')
-|| checktplrefresh('./template/default/home/spacecp_profile.htm', './template/default/home/spacecp_header_name.htm', 1470568495, '9', './data/template/9_9_home_spacecp_profile.tpl.php', './template/xinyun_door_001', 'home/spacecp_profile')
-|| checktplrefresh('./template/default/home/spacecp_profile.htm', './template/default/home/spacecp_header_name.htm', 1470568495, '9', './data/template/9_9_home_spacecp_profile.tpl.php', './template/xinyun_door_001', 'home/spacecp_profile')
+|| checktplrefresh('./template/default/home/spacecp_profile.htm', './template/default/home/spacecp_header.htm', 1471347024, '9', './data/template/9_9_home_spacecp_profile.tpl.php', './template/xinyun_door_001', 'home/spacecp_profile')
+|| checktplrefresh('./template/default/home/spacecp_profile.htm', './template/default/home/spacecp_footer.htm', 1471347024, '9', './data/template/9_9_home_spacecp_profile.tpl.php', './template/xinyun_door_001', 'home/spacecp_profile')
+|| checktplrefresh('./template/default/home/spacecp_profile.htm', './template/default/common/seccheck.htm', 1471347024, '9', './data/template/9_9_home_spacecp_profile.tpl.php', './template/xinyun_door_001', 'home/spacecp_profile')
+|| checktplrefresh('./template/default/home/spacecp_profile.htm', './template/default/home/spacecp_profile_nav.htm', 1471347024, '9', './data/template/9_9_home_spacecp_profile.tpl.php', './template/xinyun_door_001', 'home/spacecp_profile')
+|| checktplrefresh('./template/default/home/spacecp_profile.htm', './template/default/common/seditor.htm', 1471347024, '9', './data/template/9_9_home_spacecp_profile.tpl.php', './template/xinyun_door_001', 'home/spacecp_profile')
+|| checktplrefresh('./template/default/home/spacecp_profile.htm', './template/default/home/spacecp_footer.htm', 1471347024, '9', './data/template/9_9_home_spacecp_profile.tpl.php', './template/xinyun_door_001', 'home/spacecp_profile')
+|| checktplrefresh('./template/default/home/spacecp_profile.htm', './template/default/home/spacecp_header_name.htm', 1471347024, '9', './data/template/9_9_home_spacecp_profile.tpl.php', './template/xinyun_door_001', 'home/spacecp_profile')
+|| checktplrefresh('./template/default/home/spacecp_profile.htm', './template/default/home/spacecp_header_name.htm', 1471347024, '9', './data/template/9_9_home_spacecp_profile.tpl.php', './template/xinyun_door_001', 'home/spacecp_profile')
 ;?><?php include template('common/header'); ?><div id="pt" class="bm cl">
 <div class="z">
 <a href="./" class="nvhm" title="首页"><?php echo $_G['setting']['bbname'];?></a> <em>&rsaquo;</em>

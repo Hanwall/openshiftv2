@@ -1,6 +1,6 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); hookscriptoutput('space_menu');
 0
-|| checktplrefresh('./template/default/home/space_menu.htm', './template/default/home/follow_user_header.htm', 1470536700, '9', './data/template/9_9_home_space_menu.tpl.php', './template/xinyun_door_001', 'home/space_menu')
+|| checktplrefresh('./template/default/home/space_menu.htm', './template/default/home/follow_user_header.htm', 1471347077, '9', './data/template/9_9_home_space_menu.tpl.php', './template/xinyun_door_001', 'home/space_menu')
 ;?>
 <?php if($space['uid']) { ?>
 <div id="uhd">

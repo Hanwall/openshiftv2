@@ -1,6 +1,6 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); hookscriptoutput('post');
 0
-|| checktplrefresh('./template/default/mobile/forum/post.htm', './template/default/mobile/common/seccheck.htm', 1470663489, '1', './data/template/1_1_mobile_forum_post.tpl.php', './template/default', 'mobile/forum/post')
+|| checktplrefresh('./template/default/mobile/forum/post.htm', './template/default/mobile/common/seccheck.htm', 1470851278, '1', './data/template/1_1_mobile_forum_post.tpl.php', './template/default', 'mobile/forum/post')
 ;?><?php include template('common/header'); ?><?php
 $actiontitle = <<<EOF
 
