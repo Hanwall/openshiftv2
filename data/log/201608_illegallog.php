@@ -9,5 +9,3 @@
 <?PHP exit;?>	1471346812	admin	ha***a	Ques #0	115.199.55.147
 <?PHP exit;?>	1471346865	admin	ha***a	Ques #0	115.199.55.147
 <?PHP exit;?>	1471346871	admin	ha***a	Ques #0	115.199.55.147
-<?PHP exit;?>	1471353290	admin	ha***a	Ques #0	115.199.55.147
-<?PHP exit;?>	1471353301	haihua	ha***a	Ques #0	115.199.55.147

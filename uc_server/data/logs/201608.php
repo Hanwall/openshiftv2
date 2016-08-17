@@ -42,6 +42,3 @@
 <?PHP exit;?>	UCenterAdministrator	115.199.55.147	1471350816	admin_add	username=haihua
 <?PHP exit;?>		115.199.55.147	1471350919	logout	
 <?PHP exit;?>	haihua	115.199.55.147	1471350930	login	succeed
-<?PHP exit;?>	UCenterAdministrator	115.199.55.147	1471428649	login	succeed
-<?PHP exit;?>	UCenterAdministrator	115.199.55.147	1471429350	app_edit	appid=1
-<?PHP exit;?>	UCenterAdministrator	115.199.55.147	1471429375	app_edit	appid=1
