@@ -4,9 +4,9 @@ $_CACHE['apps'] = array (
   array (
     'appid' => '1',
     'type' => 'DISCUZX',
-    'name' => '街源生活',
-    'url' => 'http://xuibi.huizhouhs.com/',
-    'authkey' => 'q1Ec34G7s9PaybLbf6n4c5O9gc3fzbS6u4j13e6b11m5Wfi8214cE9h6dfzb0199',
+    'name' => 'Discuz! Board',
+    'url' => 'http://xuibi.huizhouhs.com',
+    'authkey' => 'TbN8W04fs0L8xcvdA8mfQ8s6X0Uft4EeAeo6P595UbT5J6g6i3ubVcY2f4u9y9hd',
     'ip' => '',
     'viewprourl' => '',
     'apifilename' => 'uc.php',
@@ -14,17 +14,8 @@ $_CACHE['apps'] = array (
     'dbcharset' => '',
     'synlogin' => '1',
     'recvnote' => '1',
-    'extra' => 
-    array (
-      'apppath' => '',
-      'extraurl' => 
-      array (
-      ),
-    ),
-    'tagtemplates' => '<?xml version="1.0" encoding="ISO-8859-1"?>
-<root>
-	<item id="template"><![CDATA[]]></item>
-</root>',
+    'extra' => '',
+    'tagtemplates' => '',
     'allowips' => '',
   ),
 );

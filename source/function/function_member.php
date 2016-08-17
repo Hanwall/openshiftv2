@@ -107,7 +107,7 @@ function logincheck($username) {
 		$return = uc_user_logincheck(addslashes($username), $_G['clientip']);
 	} else {
 		$login = C::t('common_failedlogin')->fetch_ip($_G['clientip']);
-		$return = (!$login || (TIMESTAMP - $login['lastupdate'] > 10)) ? 5 : max(0, 5 - $login['count']);
+		$return = (!$login || (TIMESTAMP - $login['lastupdate'] > 900)) ? 5 : max(0, 5 - $login['count']);
 
 		if(!$login) {
 			C::t('common_failedlogin')->insert(array(
@@ -115,7 +115,7 @@ function logincheck($username) {
 				'count' => 0,
 				'lastupdate' => TIMESTAMP
 			), false, true);
-		} elseif(TIMESTAMP - $login['lastupdate'] >900) {
+		} elseif(TIMESTAMP - $login['lastupdate'] > 900) {
 			C::t('common_failedlogin')->insert(array(
 				'ip' => $_G['clientip'],
 				'count' => 0,

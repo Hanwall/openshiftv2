@@ -246,7 +246,7 @@ abstract class Cloud_Service_Client_Restful {
 
 		$ip = $this->_cloudApiIp;
 
-		$result = $this->_fsockopen($url, 0, $data, '', false, $ip, 30);
+		$result = $this->_fsockopen($url, 0, $data, '', false, $ip, 5);
 		return $result;
 	}
 

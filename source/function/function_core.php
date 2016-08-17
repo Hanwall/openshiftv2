@@ -791,7 +791,7 @@ function savecache($cachename, $data) {
 }
 
 function save_syscache($cachename, $data) {
-        savecache($cachename, $data);
+	savecache($cachename, $data);
 }
 
 function block_get($parameter) {
