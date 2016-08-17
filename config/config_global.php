@@ -83,7 +83,7 @@ $_config['security']['querysafe']['afullnote'] = '0';
 
 // --------------------------  CONFIG ADMINCP  -------------------------- //
 // -------- Founders: $_config['admincp']['founder'] = '1,2,3'; --------- //
-$_config['admincp']['founder'] = '1,10';
+$_config['admincp']['founder'] = '1';
 $_config['admincp']['forcesecques'] = '0';
 $_config['admincp']['checkip'] = 1;
 $_config['admincp']['runquery'] = '0';
