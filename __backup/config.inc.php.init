@@ -1,0 +1,18 @@
+<?php 
+define('UC_DBHOST', '127.0.0.1');
+define('UC_DBUSER', 'root');
+define('UC_DBPW', 'haihua');
+define('UC_DBNAME', 'hanwall');
+define('UC_DBCHARSET', 'utf8');
+define('UC_DBTABLEPRE', 'pre_ucenter_');
+define('UC_COOKIEPATH', '/');
+define('UC_COOKIEDOMAIN', '');
+define('UC_DBCONNECT', 0);
+define('UC_CHARSET', 'utf-8');
+define('UC_FOUNDERPW', 'da9fbf9d3093d63ed7ceaa666048960c');
+define('UC_FOUNDERSALT', 'rbp2G6');
+define('UC_KEY', 'Xbr2g6XcRcZ8YbH1Z649wfl807Yfcas6l1T2K19eebY54a4aX2Hbh6I756K3g0Te');
+define('UC_SITEID', 'bbJ266lcpcU81bO196Q95ft8b75fZac6k1S2T1AeWbp5BaKal27b46i7f643d0xe');
+define('UC_MYKEY', '8bH2C6RcAcy83bL1a6u9cft8Q7Xfva16S1d211GeubJ5PaTa72fbg6Q70613Z0ie');
+define('UC_DEBUG', false);
+define('UC_PPP', 20);

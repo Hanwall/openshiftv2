@@ -1,16 +1,12 @@
 <?php
-<<<<<<< HEAD
-<?php
-=======
->>>>>>> parent of 17fc5a0... remove all the files and then pull to do replace
 
 
 $_config = array();
 
 // ----------------------------  CONFIG DB  ----------------------------- //
-$_config['db']['1']['dbhost'] = '127.5.69.130';
-$_config['db']['1']['dbuser'] = 'admin7g611US';
-$_config['db']['1']['dbpw'] = '8JgsgUWgt1ez';
+$_config['db']['1']['dbhost'] = '127.0.0.1';
+$_config['db']['1']['dbuser'] = 'root';
+$_config['db']['1']['dbpw'] = 'haihua';
 $_config['db']['1']['dbcharset'] = 'utf8';
 $_config['db']['1']['pconnect'] = '0';
 $_config['db']['1']['dbname'] = 'coreservice1';
@@ -19,7 +15,7 @@ $_config['db']['slave'] = '';
 $_config['db']['common']['slave_except_table'] = '';
 
 // --------------------------  CONFIG MEMORY  --------------------------- //
-$_config['memory']['prefix'] = 'LqzuPz_';
+$_config['memory']['prefix'] = 'Fz4IXd_';
 $_config['memory']['redis']['server'] = '';
 $_config['memory']['redis']['port'] = 6379;
 $_config['memory']['redis']['pconnect'] = 1;
@@ -54,12 +50,12 @@ $_config['output']['ajaxvalidate'] = '0';
 $_config['output']['iecompatible'] = '0';
 
 // --------------------------  CONFIG COOKIE  --------------------------- //
-$_config['cookie']['cookiepre'] = 'MUJf_';
+$_config['cookie']['cookiepre'] = 'L1Vp_';
 $_config['cookie']['cookiedomain'] = '';
 $_config['cookie']['cookiepath'] = '/';
 
 // -------------------------  CONFIG SECURITY  -------------------------- //
-$_config['security']['authkey'] = '3d1f818WvHKZWkIL';
+$_config['security']['authkey'] = 'a353c03YKQRApdav';
 $_config['security']['urlxssdefend'] = 1;
 $_config['security']['attackevasive'] = '0';
 $_config['security']['querysafe']['status'] = 1;
@@ -86,14 +82,10 @@ $_config['security']['querysafe']['afullnote'] = '0';
 
 // --------------------------  CONFIG ADMINCP  -------------------------- //
 // -------- Founders: $_config['admincp']['founder'] = '1,2,3'; --------- //
-$_config['admincp']['founder'] = '1,10';
+$_config['admincp']['founder'] = '1';
 $_config['admincp']['forcesecques'] = '0';
 $_config['admincp']['checkip'] = 1;
-<<<<<<< HEAD
 $_config['admincp']['runquery'] = '0';
-=======
-$_config['admincp']['runquery'] = '1';
->>>>>>> parent of 17fc5a0... remove all the files and then pull to do replace
 $_config['admincp']['dbimport'] = 1;
 
 // --------------------------  CONFIG REMOTE  --------------------------- //
