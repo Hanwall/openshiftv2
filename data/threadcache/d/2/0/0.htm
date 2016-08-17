@@ -1,0 +1,418 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>论坛 -  Powered by Discuz!</title>
+
+<meta name="keywords" content="论坛" />
+<meta name="description" content="论坛 " />
+<meta name="generator" content="Discuz! X3.2" />
+<meta name="author" content="Discuz! Team and Comsenz UI Team" />
+<meta name="copyright" content="2001-2013 Comsenz Inc." />
+<meta name="MSSmartTagsPreventParsing" content="True" />
+<meta http-equiv="MSThemeCompatible" content="Yes" />
+<base href="http://hk.huizhouhs.com/bbs/" /><link rel="stylesheet" type="text/css" href="data/cache/style_9_common.css?kJe" /><link rel="stylesheet" type="text/css" href="data/cache/style_9_forum_index.css?kJe" /><script type="text/javascript">var STYLEID = '9', STATICURL = 'static/', IMGDIR = 'static/image/common', VERHASH = 'kJe', charset = 'utf-8', discuz_uid = '0', cookiepre = 'MUJf_2132_', cookiedomain = '', cookiepath = '/', showusercard = '1', attackevasive = '0', disallowfloat = 'newthread', creditnotice = '1|威望|,2|金钱|,3|贡献|', defaultstyle = '', REPORTURL = 'aHR0cDovL2hrLmh1aXpob3Vocy5jb20vYmJzL2ZvcnVtLnBocA==', SITEURL = 'http://hk.huizhouhs.com/bbs/', JSPATH = 'data/cache/', CSSPATH = 'data/cache/style_', DYNAMICURL = '';</script>
+<script src="data/cache/common.js?kJe" type="text/javascript"></script>
+<meta name="application-name" content="街源生活" />
+<meta name="msapplication-tooltip" content="街源生活" />
+<meta name="msapplication-task" content="name=门户;action-uri=http://hk.huizhouhs.com/bbs/portal.php;icon-uri=http://hk.huizhouhs.com/bbs/static/image/common/portal.ico" /><meta name="msapplication-task" content="name=论坛;action-uri=http://hk.huizhouhs.com/bbs/forum.php;icon-uri=http://hk.huizhouhs.com/bbs/static/image/common/bbs.ico" />
+<meta name="msapplication-task" content="name=群组;action-uri=http://hk.huizhouhs.com/bbs/group.php;icon-uri=http://hk.huizhouhs.com/bbs/static/image/common/group.ico" /><meta name="msapplication-task" content="name=动态;action-uri=http://hk.huizhouhs.com/bbs/home.php;icon-uri=http://hk.huizhouhs.com/bbs/static/image/common/home.ico" /><link rel="archives" title="街源生活" href="http://hk.huizhouhs.com/bbs/archiver/" />
+<script src="data/cache/forum.js?kJe" type="text/javascript"></script>
+</head>
+
+<body id="nv_forum" class="pg_index" onkeydown="if(event.keyCode==27) return false;">
+<div id="append_parent"></div><div id="ajaxwaitid"></div>
+<div id="toptb" class="cl">
+<div class="wp">
+<div class="z"></div>
+<div class="y">
+<a id="switchblind" href="javascript:;" onclick="toggleBlind(this)" title="开启辅助访问" class="switchblind">开启辅助访问</a>
+</div>
+</div>
+</div>
+
+<div id="qmenu_menu" class="p_pop blk" style="display: none;">
+<div class="ptm pbw hm">
+请 <a href="javascript:;" class="xi2" onclick="lsSubmit()"><strong>登录</strong></a> 后使用快捷导航<br />没有帐号？<a href="member.php?mod=register" class="xi2 xw1">立即注册</a>
+</div>
+</div><div id="hd">
+<div class="wp">
+<div class="hdc cl"><h2><a href="./" title="街源生活"><img src="template/xinyun_door_001/images/logo.png" alt="街源生活" border="0" /></a></h2><script src="data/cache/logging.js?kJe" type="text/javascript"></script>
+<form method="post" autocomplete="off" id="lsform" action="member.php?mod=logging&amp;action=login&amp;loginsubmit=yes&amp;infloat=yes&amp;lssubmit=yes" onsubmit="return lsSubmit();">
+<div class="fastlg cl">
+<span id="return_ls" style="display:none"></span>
+<div class="y pns">
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td><label for="ls_username">帐号</label></td>
+<td><input type="text" name="username" id="ls_username" class="px vm xg1"  value="用户名/Email" onfocus="if(this.value == '用户名/Email'){this.value = '';this.className = 'px vm';}" onblur="if(this.value == ''){this.value = '用户名/Email';this.className = 'px vm xg1';}" tabindex="901" /></td>
+<td class="fastlg_l"><label for="ls_cookietime"><input type="checkbox" name="cookietime" id="ls_cookietime" class="pc" value="2592000" tabindex="903" />自动登录</label></td>
+<td>&nbsp;<a href="javascript:;" onclick="showWindow('login', 'member.php?mod=logging&action=login&viewlostpw=1')">找回密码</a></td>
+</tr>
+<tr>
+<td><label for="ls_password">密码</label></td>
+<td><input type="password" name="password" id="ls_password" class="px vm" autocomplete="off" tabindex="902" /></td>
+<td class="fastlg_l"><button type="submit" class="pn vm" tabindex="904" style="width: 75px;"><em>登录</em></button></td>
+<td>&nbsp;<a href="member.php?mod=register" class="xi2 xw1">立即注册</a></td>
+</tr>
+</table>
+<input type="hidden" name="quickforward" value="yes" />
+<input type="hidden" name="handlekey" value="ls" />
+</div>
+
+<div class="fastlg_fm y" style="margin-right: 10px; padding-right: 10px">
+<p><a href="http://hk.huizhouhs.com/bbs/connect.php?mod=login&op=init&referer=forum.php&statfrom=login_simple"><img src="static/image/common/qq_login.gif" class="vm" alt="QQ登录" /></a></p>
+<p class="hm xg1" style="padding-top: 2px;">只需一步，快速开始</p>
+</div>
+
+<div class="fastlg_fm y" style="margin-right: 10px; padding-right: 10px">
+<p><a href="plugin.php?id=wechat:login"><img src="source/plugin/wechat/image/wechat_login.png" class="vm" /></a></p>
+<p class="hm xg1" style="padding-top: 2px;">扫一扫，访问微社区</p>
+</div>
+</div>
+</form>
+
+</div>
+
+<div id="nv">
+<a href="javascript:;" id="qmenu" onmouseover="delayShow(this, function () {showMenu({'ctrlid':'qmenu','pos':'34!','ctrlclass':'a','duration':2});showForummenu();})">快捷导航</a>
+<ul><li id="mn_portal" ><a href="portal.php" hidefocus="true" title="Portal"  >门户<span>Portal</span></a></li><li class="a" id="mn_forum" ><a href="forum.php" hidefocus="true" title="BBS"  >论坛<span>BBS</span></a></li><li id="mn_group" ><a href="group.php" hidefocus="true" title="Group"  >群组<span>Group</span></a></li><li id="mn_Nad73" ><a href="http://hk.huizhouhs.com/bbs/home.php?mod=space&do=blog" hidefocus="true" title="Blog"  >博客<span>Blog</span></a></li><li id="mn_N0a2c" ><a href="misc.php?mod=faq" hidefocus="true" title="Help"  >帮助<span>Help</span></a></li></ul>
+</div>
+<div class="p_pop h_pop" id="mn_userapp_menu" style="display: none"></div><div id="mu" class="cl">
+</div><div id="scbar" class="cl">
+<form id="scbar_form" method="post" autocomplete="off" onsubmit="searchFocus($('scbar_txt'))" action="search.php?searchsubmit=yes" target="_blank">
+<input type="hidden" name="mod" id="scbar_mod" value="search" />
+<input type="hidden" name="formhash" value="72840d8c" />
+<input type="hidden" name="srchtype" value="title" />
+<input type="hidden" name="srhfid" value="" />
+<input type="hidden" name="srhlocality" value="forum::index" />
+<table cellspacing="0" cellpadding="0">
+<tr>
+<td class="scbar_icon_td"></td>
+<td class="scbar_txt_td"><input type="text" name="srchtxt" id="scbar_txt" value="请输入搜索内容" autocomplete="off" x-webkit-speech speech /></td>
+<td class="scbar_type_td"><a href="javascript:;" id="scbar_type" class="xg1" onclick="showMenu(this.id)" hidefocus="true">搜索</a></td>
+<td class="scbar_btn_td"><button type="submit" name="searchsubmit" id="scbar_btn" sc="1" class="pn pnc" value="true"><strong class="xi2">搜索</strong></button></td>
+<td class="scbar_hot_td">
+<div id="scbar_hot">
+<strong class="xw1">热搜: </strong>
+
+<a href="search.php?mod=forum&amp;srchtxt=%E6%B4%BB%E5%8A%A8&amp;formhash=72840d8c&amp;searchsubmit=true&amp;source=hotsearch" target="_blank" class="xi2" sc="1">活动</a>
+
+
+
+<a href="search.php?mod=forum&amp;srchtxt=%E4%BA%A4%E5%8F%8B&amp;formhash=72840d8c&amp;searchsubmit=true&amp;source=hotsearch" target="_blank" class="xi2" sc="1">交友</a>
+
+
+
+<a href="search.php?mod=forum&amp;srchtxt=discuz&amp;formhash=72840d8c&amp;searchsubmit=true&amp;source=hotsearch" target="_blank" class="xi2" sc="1">discuz</a>
+
+</div>
+</td>
+</tr>
+</table>
+</form>
+</div>
+<ul id="scbar_type_menu" class="p_pop" style="display: none;"><li><a href="javascript:;" rel="article">文章</a></li><li><a href="javascript:;" rel="forum" class="curtype">帖子</a></li><li><a href="javascript:;" rel="group">群组</a></li><li><a href="javascript:;" rel="user">用户</a></li></ul>
+<script type="text/javascript">
+initSearchmenu('scbar', '');
+</script>
+</div>
+</div>
+
+
+<div id="wp" class="wp">
+<div id="pt" class="bm cl">
+<div class="z">
+<a href="./" class="nvhm" title="首页">街源生活</a><em>&raquo;</em><a href="forum.php">论坛</a></div>
+<div class="z"></div>
+</div>
+
+
+
+<style id="diy_style" type="text/css"></style>
+
+<div class="wp">
+<!--[diy=diy1]--><div id="diy1" class="area"></div><!--[/diy]-->
+</div>
+
+<div id="ct" class="wp cl">
+<div id="chart" class="bm bw0 cl">
+<p class="chart z">今日: <em>1</em><span class="pipe">|</span>昨日: <em>0</em><span class="pipe">|</span>帖子: <em>14</em><span class="pipe">|</span>会员: <em>2</em><span class="pipe">|</span>欢迎新会员: <em><a href="home.php?mod=space&amp;username=hanwal" target="_blank" class="xi2">hanwal</a></em></p>
+<div class="y">
+<a href="forum.php?mod=guide&amp;view=new" title="最新回复" class="xi2">最新回复</a></div>
+</div>
+<!--[diy=diy_chart]--><div id="diy_chart" class="area"></div><!--[/diy]-->
+<div class="mn">
+
+
+<div class="fl bm">
+<div class="bm bmw  cl">
+<div class="bm_h cl">
+<span class="o">
+<img id="category_1_img" src="static/image/common/collapsed_no.gif" title="收起/展开" alt="收起/展开" onclick="toggle_collapse('category_1');" />
+</span>
+<h2><a href="forum.php?gid=1" style="">讨论</a></h2>
+</div>
+<div id="category_1" class="bm_c" style="">
+<table cellspacing="0" cellpadding="0" class="fl_tb">
+<tr><td class="fl_icn" >
+<a href="forum.php?mod=forumdisplay&fid=57"><img src="static/image/common/forum.gif" alt="新手报到" /></a>
+</td>
+<td>
+<h2><a href="forum.php?mod=forumdisplay&fid=57">新手报到</a></h2>
+</td>
+<td class="fl_i">
+<span class="xi2">5</span><span class="xg1"> / 7</span></td>
+<td class="fl_by">
+<div>
+<a href="forum.php?mod=redirect&amp;tid=15&amp;goto=lastpost#lastpost" class="xi2">test</a> <cite><span title="2016-8-9 19:02">前天&nbsp;19:02</span> <a href="home.php?mod=space&username=admin">admin</a></cite>
+</div>
+</td>
+</tr>
+<tr class="fl_row">
+</tr>
+</table>
+</div>
+</div><div class="bm bmw  cl">
+<div class="bm_h cl">
+<span class="o">
+<img id="category_44_img" src="static/image/common/collapsed_no.gif" title="收起/展开" alt="收起/展开" onclick="toggle_collapse('category_44');" />
+</span>
+<h2><a href="forum.php?gid=44" style="">人文地理</a></h2>
+</div>
+<div id="category_44" class="bm_c" style="">
+<table cellspacing="0" cellpadding="0" class="fl_tb">
+<tr><td class="fl_icn" >
+<a href="forum.php?mod=forumdisplay&fid=59"><img src="static/image/common/forum.gif" alt="百姓生活" /></a>
+</td>
+<td>
+<h2><a href="forum.php?mod=forumdisplay&fid=59">百姓生活</a></h2>
+</td>
+<td class="fl_i">
+<span class="xi2">1</span><span class="xg1"> / 1</span></td>
+<td class="fl_by">
+<div>
+<a href="forum.php?mod=redirect&amp;tid=8&amp;goto=lastpost#lastpost" class="xi2">helloworld3</a> <cite><span title="2016-8-4 22:12">7&nbsp;天前</span> <a href="home.php?mod=space&username=admin">admin</a></cite>
+</div>
+</td>
+</tr>
+<tr class="fl_row">
+<td class="fl_icn" >
+<a href="forum.php?mod=forumdisplay&fid=63"><img src="static/image/common/forum.gif" alt="上村" /></a>
+</td>
+<td>
+<h2><a href="forum.php?mod=forumdisplay&fid=63">上村</a><em class="xw0 xi1" title="今日"> (1)</em></h2>
+</td>
+<td class="fl_i">
+<span class="xi2">1</span><span class="xg1"> / 1</span></td>
+<td class="fl_by">
+<div>
+<a href="forum.php?mod=redirect&amp;tid=16&amp;goto=lastpost#lastpost" class="xi2">twst</a> <cite><span title="2016-8-11 01:48">11&nbsp;小时前</span> <a href="home.php?mod=space&username=admin">admin</a></cite>
+</div>
+</td>
+</tr>
+<tr class="fl_row">
+</tr>
+</table>
+</div>
+</div><div class="bm bmw  cl">
+<div class="bm_h cl">
+<span class="o">
+<img id="category_38_img" src="static/image/common/collapsed_no.gif" title="收起/展开" alt="收起/展开" onclick="toggle_collapse('category_38');" />
+</span>
+<h2><a href="forum.php?gid=38" style="">互联网</a></h2>
+</div>
+<div id="category_38" class="bm_c" style="">
+<table cellspacing="0" cellpadding="0" class="fl_tb">
+<tr><td class="fl_icn" >
+<a href="forum.php?mod=forumdisplay&fid=61"><img src="static/image/common/forum.gif" alt="互联网金融" /></a>
+</td>
+<td>
+<h2><a href="forum.php?mod=forumdisplay&fid=61">互联网金融</a></h2>
+</td>
+<td class="fl_i">
+<span class="xi2">0</span><span class="xg1"> / 0</span></td>
+<td class="fl_by">
+<div>
+从未
+</div>
+</td>
+</tr>
+<tr class="fl_row">
+<td class="fl_icn" >
+<a href="forum.php?mod=forumdisplay&fid=60"><img src="static/image/common/forum.gif" alt="电商物流" /></a>
+</td>
+<td>
+<h2><a href="forum.php?mod=forumdisplay&fid=60">电商物流</a></h2>
+</td>
+<td class="fl_i">
+<span class="xi2">0</span><span class="xg1"> / 0</span></td>
+<td class="fl_by">
+<div>
+从未
+</div>
+</td>
+</tr>
+<tr class="fl_row">
+<td class="fl_icn" >
+<a href="forum.php?mod=forumdisplay&fid=62"><img src="static/image/common/forum.gif" alt="电子数码" /></a>
+</td>
+<td>
+<h2><a href="forum.php?mod=forumdisplay&fid=62">电子数码</a></h2>
+</td>
+<td class="fl_i">
+<span class="xi2">0</span><span class="xg1"> / 0</span></td>
+<td class="fl_by">
+<div>
+从未
+</div>
+</td>
+</tr>
+<tr class="fl_row">
+</tr>
+</table>
+</div>
+</div><div class="bm bmw  cl">
+<div class="bm_h cl">
+<span class="o">
+<img id="category_46_img" src="static/image/common/collapsed_no.gif" title="收起/展开" alt="收起/展开" onclick="toggle_collapse('category_46');" />
+</span>
+<h2><a href="forum.php?gid=46" style="">车友会</a></h2>
+</div>
+<div id="category_46" class="bm_c" style="">
+<table cellspacing="0" cellpadding="0" class="fl_tb">
+<tr><td class="fl_icn" >
+<a href="forum.php?mod=forumdisplay&fid=58"><img src="static/image/common/forum.gif" alt="车友会" /></a>
+</td>
+<td>
+<h2><a href="forum.php?mod=forumdisplay&fid=58">车友会</a></h2>
+</td>
+<td class="fl_i">
+<span class="xi2">0</span><span class="xg1"> / 0</span></td>
+<td class="fl_by">
+<div>
+从未
+</div>
+</td>
+</tr>
+<tr class="fl_row">
+</tr>
+</table>
+</div>
+</div><div class="bm bmw  cl">
+<div class="bm_h cl">
+<span class="o">
+<img id="category_47_img" src="static/image/common/collapsed_no.gif" title="收起/展开" alt="收起/展开" onclick="toggle_collapse('category_47');" />
+</span>
+<h2><a href="forum.php?gid=47" style="">站务-禁止灌水</a></h2>
+</div>
+<div id="category_47" class="bm_c" style="">
+<table cellspacing="0" cellpadding="0" class="fl_tb">
+<tr><td class="fl_icn" >
+<a href="forum.php?mod=forumdisplay&fid=51"><img src="static/image/common/forum.gif" alt="投诉建议" /></a>
+</td>
+<td>
+<h2><a href="forum.php?mod=forumdisplay&fid=51">投诉建议</a></h2>
+</td>
+<td class="fl_i">
+<span class="xi2">0</span><span class="xg1"> / 0</span></td>
+<td class="fl_by">
+<div>
+从未
+</div>
+</td>
+</tr>
+<tr class="fl_row">
+<td class="fl_icn" >
+<a href="forum.php?mod=forumdisplay&fid=50"><img src="static/image/common/forum.gif" alt="BUG提交" /></a>
+</td>
+<td>
+<h2><a href="forum.php?mod=forumdisplay&fid=50">BUG提交</a></h2>
+</td>
+<td class="fl_i">
+<span class="xi2">1</span><span class="xg1"> / 3</span></td>
+<td class="fl_by">
+<div>
+<a href="forum.php?mod=redirect&amp;tid=10&amp;goto=lastpost#lastpost" class="xi2">问题汇总Release0.0.2</a> <cite><span title="2016-8-5 09:22">6&nbsp;天前</span> <a href="home.php?mod=space&username=admin">admin</a></cite>
+</div>
+</td>
+</tr>
+<tr class="fl_row">
+<td class="fl_icn" >
+<a href="forum.php?mod=forumdisplay&fid=49"><img src="static/image/common/forum.gif" alt="版本日志" /></a>
+</td>
+<td>
+<h2><a href="forum.php?mod=forumdisplay&fid=49">版本日志</a></h2>
+</td>
+<td class="fl_i">
+<span class="xi2">2</span><span class="xg1"> / 2</span></td>
+<td class="fl_by">
+<div>
+<a href="forum.php?mod=redirect&amp;tid=12&amp;goto=lastpost#lastpost" class="xi2">release0.0.2</a> <cite><span title="2016-8-5 09:30">6&nbsp;天前</span> <a href="home.php?mod=space&username=admin">admin</a></cite>
+</div>
+</td>
+</tr>
+<tr class="fl_row">
+</tr>
+</table>
+</div>
+</div>
+</div>
+
+<div class="wp mtn">
+<!--[diy=diy3]--><div id="diy3" class="area"></div><!--[/diy]-->
+</div>
+
+<div id="online" class="bm oll">
+<div class="bm_h">
+<span class="o"><a href="forum.php?showoldetails=no#online" title="收起/展开"><img src="static/image/common/collapsed_no.gif" alt="收起/展开" /></a></span>
+<h3>
+<strong><a href="home.php?mod=space&amp;do=friend&amp;view=online&amp;type=member">在线会员</a></strong>
+<span class="xs1">- <strong>1</strong> 人在线
+- <strong>0</strong> 会员(<strong>0</strong> 隐身),
+<strong>1</strong> 位游客
+- 最高记录是 <strong>12</strong> 于 <strong>2016-7-31</strong>.</span>
+</h3>
+</div>
+<dl id="onlinelist" class="bm_c">
+<dt class="ptm pbm bbda"><img src="static/image/common/online_admin.gif" /> 管理员 &nbsp; &nbsp; &nbsp; <img src="static/image/common/online_supermod.gif" /> 超级版主 &nbsp; &nbsp; &nbsp; <img src="static/image/common/online_moderator.gif" /> 版主 &nbsp; &nbsp; &nbsp; <img src="static/image/common/online_member.gif" /> 会员 &nbsp; &nbsp; &nbsp; </dt>
+<dd class="ptm pbm">
+<ul class="cl">
+<li style="width: auto">当前只有游客或隐身会员在线</li>
+</ul>
+</dd>
+</dl>
+</div>
+
+</div>
+
+</div>
+	</div>
+
+
+<div id="ft" class="wp cl">
+<div id="flk" class="y">
+<p>
+<a href="forum.php?mobile=yes" >手机版</a><span class="pipe">|</span><a href="forum.php?" >电脑版</a><span class="pipe">|</span><a href="archiver/" >Archiver</a><span class="pipe">|</span><a href="forum.php?mod=misc&action=showdarkroom" >小黑屋</a><span class="pipe">|</span><strong><a href="http://hk.huizhouhs.com/bbs/" target="_blank">hk.huizhouhs.com</a></strong>
+</p>
+<p class="xs0">
+GMT+8, 2016-8-11 13:33<span id="debuginfo">
+, Processed in 0.088216 second(s), 19 queries
+.
+</span>
+</p>
+</div>
+<div id="frt">
+<p>Powered by <strong><a href="http://www.discuz.net" target="_blank">Discuz!</a></strong> <em>X3.2</em></p>
+<p class="xs0">&copy; 2001-2013 <a href="http://www.comsenz.com" target="_blank">Comsenz Inc.</a></p>
+</div></div>
+<script src="home.php?mod=misc&ac=sendmail&rand=1470893637" type="text/javascript"></script>
+<div id="scrolltop">
+<span hidefocus="true"><a title="返回顶部" onclick="window.scrollTo('0','0')" class="scrolltopa" ><b>返回顶部</b></a></span>
+</div>
+<script type="text/javascript">_attachEvent(window, 'scroll', function () { showTopLink(); });checkBlind();</script>
+			<div id="discuz_tips" style="display:none;"></div>
+			<script type="text/javascript">
+				var tipsinfo = '57613593|X3.2|0.6||0||0|7|1470893637|5a6cded396d94784784bde715cac848c|2';
+			</script>
+			<script src="http://discuz.gtimg.cn/cloud/scripts/discuz_tips.js?v=1" type="text/javascript" charset="UTF-8"></script>
