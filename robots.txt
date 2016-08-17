@@ -3,6 +3,7 @@
 #
 
 User-agent: *
+<<<<<<< HEAD
 Disallow: /api/
 Disallow: /data/
 Disallow: /source/
@@ -25,3 +26,27 @@ Disallow: /userapp.php?mod=app&*
 Disallow: /*?mod=misc*
 Disallow: /*?mod=attachment*
 Disallow: /*mobile=yes*
+=======
+Disallow: /bbs/api/
+Disallow: /bbs/data/
+Disallow: /bbs/source/
+Disallow: /bbs/install/
+Disallow: /bbs/template/
+Disallow: /bbs/config/
+Disallow: /bbs/uc_client/
+Disallow: /bbs/uc_server/
+Disallow: /bbs/static/
+Disallow: /bbs/admin.php
+Disallow: /bbs/search.php
+Disallow: /bbs/member.php
+Disallow: /bbs/api.php
+Disallow: /bbs/misc.php
+Disallow: /bbs/connect.php
+Disallow: /bbs/forum.php?mod=redirect*
+Disallow: /bbs/forum.php?mod=post*
+Disallow: /bbs/home.php?mod=spacecp*
+Disallow: /bbs/userapp.php?mod=app&*
+Disallow: /bbs/*?mod=misc*
+Disallow: /bbs/*?mod=attachment*
+Disallow: /bbs/*mobile=yes*
+>>>>>>> parent of 17fc5a0... remove all the files and then pull to do replace

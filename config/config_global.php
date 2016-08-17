@@ -1,5 +1,8 @@
 <?php
+<<<<<<< HEAD
 <?php
+=======
+>>>>>>> parent of 17fc5a0... remove all the files and then pull to do replace
 
 
 $_config = array();
@@ -86,7 +89,11 @@ $_config['security']['querysafe']['afullnote'] = '0';
 $_config['admincp']['founder'] = '1,10';
 $_config['admincp']['forcesecques'] = '0';
 $_config['admincp']['checkip'] = 1;
+<<<<<<< HEAD
 $_config['admincp']['runquery'] = '0';
+=======
+$_config['admincp']['runquery'] = '1';
+>>>>>>> parent of 17fc5a0... remove all the files and then pull to do replace
 $_config['admincp']['dbimport'] = 1;
 
 // --------------------------  CONFIG REMOTE  --------------------------- //
