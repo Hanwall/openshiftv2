@@ -1,7 +1,7 @@
 <?php 
-define('UC_DBHOST', '127.0.0.1');
-define('UC_DBUSER', 'root');
-define('UC_DBPW', 'haihua');
+define('UC_DBHOST', '127.5.69.130');
+define('UC_DBUSER', 'admin7g611US');
+define('UC_DBPW', '8JgsgUWgt1ez');
 define('UC_DBNAME', 'coreservice1');
 define('UC_DBCHARSET', 'utf8');
 define('UC_DBTABLEPRE', 'pre_ucenter_');
