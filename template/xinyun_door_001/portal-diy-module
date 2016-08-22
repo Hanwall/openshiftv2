@@ -1,0 +1,35 @@
+<ul class="diy_ul">
+[index=1]
+	<li class="diy_li">
+		<a class="diy_li_a" href="{url}">
+			<img class="diy_li_img" src="{avatar_middle}"/>
+		</a>
+		<div class="diy_li_div">
+			<h4 class="div_li_h4"><a href="{url}">{forumname}：{title}</a><span class="diy_li_span">{lastpost}</span></h4>
+			<p class="div_li_p">{summary}</p>
+		</div>
+	</li>
+[/index]
+[index=2]
+	<li class="diy_li">
+		<a class="diy_li_a" href="{url}">
+			<img class="diy_li_img" src="{avatar}"/>
+		</a>
+		<div class="diy_li_div">
+			<h4 class="div_li_h4"><a href="{url}">{forumname}：{title}</a><span class="diy_li_span">{lastpost}</span></h4>
+			<p class="div_li_p">{summary}</p>
+		</div>
+	</li>
+[/index]
+[index=3]
+	<li class="diy_li">
+		<a class="diy_li_a" href="{url}">
+			<img class="diy_li_img" src="{avatar}"/>
+		</a>
+		<div class="diy_li_div">
+			<h4 class="div_li_h4"><a href="{url}">{forumname}：{title}</a><span class="diy_li_span">{lastpost}</span></h4>
+			<p class="div_li_p">{summary}</p>
+		</div>
+	</li>
+[/index]
+</ul>

@@ -1,90 +1,56 @@
 /** portal::index **/
-
-
-a {
-    color: #444444;
-    text-decoration: none;
-}
-
-.block .xl1 ul li {
-    background: url({STYLEIMGDIR}/dot.gif) no-repeat scroll 0 40% transparent;
-    padding-left: 10px;
-}
-ul li, .xl li {
-    list-style: none outside none;
-	margin-bottom:4px;
-}
-.module span a{
- color:#FF6200
-}
-.more{ float:right; font-size:12px; font-weight:normal; margin-right:10px; }
-.xinyun_title strong{ float:left; width:100px;}
-.ml li{overflow: visible; padding:0 7px 0px;}
-.xld .m{ margin:8px 8px 0px 0px}
-.xld dd{ margin-bottom:2px}
-.center dt{text-align:center;}
-.center dd{text-indent:24px;}
-
 .xinyun_oneleft_boxone{padding:0px 0 0 3px;width:955px;height:287px;border:1px solid #CCCCCC;overflow:hidden;}
-
 .xinyun_title{background:url({STYLEIMGDIR}/titlebg.png) repeat-x;height:43px;overflow:hidden;line-height:38px;text-indent:10px;color:#333333;font-size:14px;}
 .xinyun_photo{border:1px solid #CCCCCC; height:500px}
 .xinyun_link{border:1px solid #CCCCCC; }
 .xinyun_photo img{ border:1px solid #dfdfdf; padding:2px}
 .xinyun_photo li{margin:0px; padding:0px 8px;_padding:0px 5px;}
-.mt8{margin-top:8px;}
-.mt8{margin-bottom:8px;}
 
 
-
-
-
-
-.clearfix:after {
-    visibility: hidden;
-    display: block;
-    font-size: 0;
-    content: ".";
-    clear: both;
-    height: 0;
+.dxb_bc{
+    width: 945px;
+    float: left;
 }
-
-.clearfix li{
-
-
-
-    height: 141px;
-    padding: 10px 0;
-    border-bottom: 1px dashed #eee;
+.diy_ul{
+    padding: 0 15px;
+    border: 1px solid #eee;
 }
-
-.newimg {
-    height:130; 
-    position: relative;
+.diy_li{   
+    height: 145px;
+    padding: 15px 0;
+        
+}
+.diy_li_a{
+    box-sizing: border-box;
     display: block;
     float: left;
     margin-right: 15px;
-    width: 200px;
-    overflow: hidden;
+    color: #333;
 }
-
-
-.newinfo {
+.diy_li_img{
+    width:131px;
+    height:131px;
+    display: block;
     float: left;
-    left: 210px;
-    width: 720px;
-
 }
-.newinfo h4 {
-    height: 30px;
+.diy_li_div{
+    float: left;
+    width: 720px;
+    height:131px;
+    box-sizing: border-box;
+}
+.div_li_h4{
+    margin: initial;
+    height: 20px;
     padding-bottom: 10px;
 }
-.newinfo a {
-    float: left;
-    font-size: 14px;
-}
-.newinfo span {
+.diy_li_span{
     float: right;
-    font-weight: normal;
 }
+.div_li_p{
+    margin: auto;
+    line-height: 22px;
+    box-sizing: border-box;
+}
+
 /** end **/
