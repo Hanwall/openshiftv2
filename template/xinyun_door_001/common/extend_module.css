@@ -28,10 +28,6 @@ ul li, .xl li {
 .xinyun_oneleft_boxone{padding:0px 0 0 3px;width:955px;height:287px;border:1px solid #CCCCCC;overflow:hidden;}
 
 .xinyun_title{background:url({STYLEIMGDIR}/titlebg.png) repeat-x;height:43px;overflow:hidden;line-height:38px;text-indent:10px;color:#333333;font-size:14px;}
-
-
-
-
 .xinyun_photo{border:1px solid #CCCCCC; height:500px}
 .xinyun_link{border:1px solid #CCCCCC; }
 .xinyun_photo img{ border:1px solid #dfdfdf; padding:2px}
@@ -40,15 +36,30 @@ ul li, .xl li {
 .mt8{margin-bottom:8px;}
 
 
-.border {
-   
+
+
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: ".";
+    clear: both;
+    height: 0;
 }
 
+.clearfix li{
 
 
 
+    height: 141px;
+    padding: 10px 0;
+    border-bottom: 1px dashed #eee;
+}
 
 .newimg {
+    height:130; 
     position: relative;
     display: block;
     float: left;
@@ -57,16 +68,10 @@ ul li, .xl li {
     overflow: hidden;
 }
 
-a, img {
-    outline: none;
-    text-decoration: none;
-    color: #333;
-}
-img {
-    vertical-align: middle;
-}
+
 .newinfo {
     float: left;
+    left: 210px;
     width: 720px;
 
 }
