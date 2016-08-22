@@ -126,4 +126,43 @@ dt.r_bcity {
     background: url({STYLEIMGDIR}/bcity.png) no-repeat scroll 0 0 transparent;
 }
 .diyul{width: 500px;}
+
+
+
+
+
+.newimg {
+    position: relative;
+    display: block;
+    float: left;
+    margin-right: 15px;
+    width: 200px;
+    overflow: hidden;
+}
+
+a, img {
+    outline: none;
+    text-decoration: none;
+    color: #333;
+}
+img {
+    vertical-align: middle;
+}
+.newinfo {
+    float: left;
+    width: 720px;
+
+}
+.newinfo h4 {
+    height: 30px;
+    padding-bottom: 10px;
+}
+.newinfo a {
+    float: left;
+    font-size: 14px;
+}
+.newinfo span {
+    float: right;
+    font-weight: normal;
+}
 /** end **/
