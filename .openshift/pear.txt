@@ -1,1 +1,1 @@
-git2.so
+git2
