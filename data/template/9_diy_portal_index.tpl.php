@@ -1,10 +1,10 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); hookscriptoutput('index');
 0
-|| checktplrefresh('data/diy/./template/xinyun_door_001//portal/index.htm', './template/default/common/header.htm', 1471684280, 'diy', './data/template/9_diy_portal_index.tpl.php', 'data/diy/./template/xinyun_door_001/', 'portal/index')
-|| checktplrefresh('data/diy/./template/xinyun_door_001//portal/index.htm', './template/default/common/footer.htm', 1471684280, 'diy', './data/template/9_diy_portal_index.tpl.php', 'data/diy/./template/xinyun_door_001/', 'portal/index')
-|| checktplrefresh('data/diy/./template/xinyun_door_001//portal/index.htm', './template/default/common/header_common.htm', 1471684280, 'diy', './data/template/9_diy_portal_index.tpl.php', 'data/diy/./template/xinyun_door_001/', 'portal/index')
-|| checktplrefresh('data/diy/./template/xinyun_door_001//portal/index.htm', './template/default/common/header_qmenu.htm', 1471684280, 'diy', './data/template/9_diy_portal_index.tpl.php', 'data/diy/./template/xinyun_door_001/', 'portal/index')
-|| checktplrefresh('data/diy/./template/xinyun_door_001//portal/index.htm', './template/default/common/pubsearchform.htm', 1471684280, 'diy', './data/template/9_diy_portal_index.tpl.php', 'data/diy/./template/xinyun_door_001/', 'portal/index')
+|| checktplrefresh('data/diy/./template/xinyun_door_001//portal/index.htm', './template/default/common/header.htm', 1471890770, 'diy', './data/template/9_diy_portal_index.tpl.php', 'data/diy/./template/xinyun_door_001/', 'portal/index')
+|| checktplrefresh('data/diy/./template/xinyun_door_001//portal/index.htm', './template/default/common/footer.htm', 1471890770, 'diy', './data/template/9_diy_portal_index.tpl.php', 'data/diy/./template/xinyun_door_001/', 'portal/index')
+|| checktplrefresh('data/diy/./template/xinyun_door_001//portal/index.htm', './template/default/common/header_common.htm', 1471890770, 'diy', './data/template/9_diy_portal_index.tpl.php', 'data/diy/./template/xinyun_door_001/', 'portal/index')
+|| checktplrefresh('data/diy/./template/xinyun_door_001//portal/index.htm', './template/default/common/header_qmenu.htm', 1471890770, 'diy', './data/template/9_diy_portal_index.tpl.php', 'data/diy/./template/xinyun_door_001/', 'portal/index')
+|| checktplrefresh('data/diy/./template/xinyun_door_001//portal/index.htm', './template/default/common/pubsearchform.htm', 1471890770, 'diy', './data/template/9_diy_portal_index.tpl.php', 'data/diy/./template/xinyun_door_001/', 'portal/index')
 ;
 block_get('189,190,188');?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">

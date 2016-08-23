@@ -1,12 +1,12 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); hookscriptoutput('forumdisplay');
 0
-|| checktplrefresh('./template/default/forum/forumdisplay.htm', './template/default/forum/forumdisplay_leftside.htm', 1471686468, 'diy', './data/template/9_diy_forum_forumdisplay.tpl.php', './template/xinyun_door_001', 'forum/forumdisplay')
-|| checktplrefresh('./template/default/forum/forumdisplay.htm', './template/default/forum/recommend.htm', 1471686468, 'diy', './data/template/9_diy_forum_forumdisplay.tpl.php', './template/xinyun_door_001', 'forum/forumdisplay')
-|| checktplrefresh('./template/default/forum/forumdisplay.htm', './template/default/common/seccheck.htm', 1471686468, 'diy', './data/template/9_diy_forum_forumdisplay.tpl.php', './template/xinyun_door_001', 'forum/forumdisplay')
-|| checktplrefresh('./template/default/forum/forumdisplay.htm', './template/default/forum/forumdisplay_list.htm', 1471686468, 'diy', './data/template/9_diy_forum_forumdisplay.tpl.php', './template/xinyun_door_001', 'forum/forumdisplay')
-|| checktplrefresh('./template/default/forum/forumdisplay.htm', './template/default/forum/forumdisplay_sort.htm', 1471686468, 'diy', './data/template/9_diy_forum_forumdisplay.tpl.php', './template/xinyun_door_001', 'forum/forumdisplay')
-|| checktplrefresh('./template/default/forum/forumdisplay.htm', './template/default/forum/search_sortoption.htm', 1471686468, 'diy', './data/template/9_diy_forum_forumdisplay.tpl.php', './template/xinyun_door_001', 'forum/forumdisplay')
-|| checktplrefresh('./template/default/forum/forumdisplay.htm', './template/default/forum/search_sortoption.htm', 1471686468, 'diy', './data/template/9_diy_forum_forumdisplay.tpl.php', './template/xinyun_door_001', 'forum/forumdisplay')
+|| checktplrefresh('./template/default/forum/forumdisplay.htm', './template/default/forum/forumdisplay_leftside.htm', 1471890857, 'diy', './data/template/9_diy_forum_forumdisplay.tpl.php', './template/xinyun_door_001', 'forum/forumdisplay')
+|| checktplrefresh('./template/default/forum/forumdisplay.htm', './template/default/forum/recommend.htm', 1471890857, 'diy', './data/template/9_diy_forum_forumdisplay.tpl.php', './template/xinyun_door_001', 'forum/forumdisplay')
+|| checktplrefresh('./template/default/forum/forumdisplay.htm', './template/default/common/seccheck.htm', 1471890857, 'diy', './data/template/9_diy_forum_forumdisplay.tpl.php', './template/xinyun_door_001', 'forum/forumdisplay')
+|| checktplrefresh('./template/default/forum/forumdisplay.htm', './template/default/forum/forumdisplay_list.htm', 1471890857, 'diy', './data/template/9_diy_forum_forumdisplay.tpl.php', './template/xinyun_door_001', 'forum/forumdisplay')
+|| checktplrefresh('./template/default/forum/forumdisplay.htm', './template/default/forum/forumdisplay_sort.htm', 1471890857, 'diy', './data/template/9_diy_forum_forumdisplay.tpl.php', './template/xinyun_door_001', 'forum/forumdisplay')
+|| checktplrefresh('./template/default/forum/forumdisplay.htm', './template/default/forum/search_sortoption.htm', 1471890857, 'diy', './data/template/9_diy_forum_forumdisplay.tpl.php', './template/xinyun_door_001', 'forum/forumdisplay')
+|| checktplrefresh('./template/default/forum/forumdisplay.htm', './template/default/forum/search_sortoption.htm', 1471890857, 'diy', './data/template/9_diy_forum_forumdisplay.tpl.php', './template/xinyun_door_001', 'forum/forumdisplay')
 ;?><?php include template('common/header'); if($_G['forum']['ismoderator']) { ?>
 <script src="<?php echo $_G['setting']['jspath'];?>forum_moderate.js?<?php echo VERHASH;?>" type="text/javascript"></script>
 <?php } ?>

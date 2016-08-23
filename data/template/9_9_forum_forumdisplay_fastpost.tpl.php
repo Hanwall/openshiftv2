@@ -1,9 +1,9 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); 
 0
-|| checktplrefresh('./template/default/forum/forumdisplay_fastpost.htm', './template/default/common/seditor.htm', 1471686468, '9', './data/template/9_9_forum_forumdisplay_fastpost.tpl.php', './template/xinyun_door_001', 'forum/forumdisplay_fastpost')
-|| checktplrefresh('./template/default/forum/forumdisplay_fastpost.htm', './template/default/forum/seccheck_post.htm', 1471686468, '9', './data/template/9_9_forum_forumdisplay_fastpost.tpl.php', './template/xinyun_door_001', 'forum/forumdisplay_fastpost')
-|| checktplrefresh('./template/default/forum/forumdisplay_fastpost.htm', './template/default/common/upload.htm', 1471686468, '9', './data/template/9_9_forum_forumdisplay_fastpost.tpl.php', './template/xinyun_door_001', 'forum/forumdisplay_fastpost')
-|| checktplrefresh('./template/default/forum/forumdisplay_fastpost.htm', './template/default/common/seccheck.htm', 1471686468, '9', './data/template/9_9_forum_forumdisplay_fastpost.tpl.php', './template/xinyun_door_001', 'forum/forumdisplay_fastpost')
+|| checktplrefresh('./template/default/forum/forumdisplay_fastpost.htm', './template/default/common/seditor.htm', 1471890857, '9', './data/template/9_9_forum_forumdisplay_fastpost.tpl.php', './template/xinyun_door_001', 'forum/forumdisplay_fastpost')
+|| checktplrefresh('./template/default/forum/forumdisplay_fastpost.htm', './template/default/forum/seccheck_post.htm', 1471890857, '9', './data/template/9_9_forum_forumdisplay_fastpost.tpl.php', './template/xinyun_door_001', 'forum/forumdisplay_fastpost')
+|| checktplrefresh('./template/default/forum/forumdisplay_fastpost.htm', './template/default/common/upload.htm', 1471890857, '9', './data/template/9_9_forum_forumdisplay_fastpost.tpl.php', './template/xinyun_door_001', 'forum/forumdisplay_fastpost')
+|| checktplrefresh('./template/default/forum/forumdisplay_fastpost.htm', './template/default/common/seccheck.htm', 1471890857, '9', './data/template/9_9_forum_forumdisplay_fastpost.tpl.php', './template/xinyun_door_001', 'forum/forumdisplay_fastpost')
 ;?>
 <script type="text/javascript">
 var postminchars = parseInt('<?php echo $_G['setting']['minpostsize'];?>');

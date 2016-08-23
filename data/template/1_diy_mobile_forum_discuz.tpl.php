@@ -1,7 +1,7 @@
 <?php if(!defined('IN_DISCUZ')) exit('Access Denied'); hookscriptoutput('discuz');
 0
-|| checktplrefresh('./template/default/mobile/forum/discuz.htm', './template/default/mobile/common/header.htm', 1471686068, 'diy', './data/template/1_diy_mobile_forum_discuz.tpl.php', './template/default', 'mobile/forum/discuz')
-|| checktplrefresh('./template/default/mobile/forum/discuz.htm', './template/default/mobile/common/footer.htm', 1471686068, 'diy', './data/template/1_diy_mobile_forum_discuz.tpl.php', './template/default', 'mobile/forum/discuz')
+|| checktplrefresh('./template/default/mobile/forum/discuz.htm', './template/default/mobile/common/header.htm', 1471890751, 'diy', './data/template/1_diy_mobile_forum_discuz.tpl.php', './template/default', 'mobile/forum/discuz')
+|| checktplrefresh('./template/default/mobile/forum/discuz.htm', './template/default/mobile/common/footer.htm', 1471890751, 'diy', './data/template/1_diy_mobile_forum_discuz.tpl.php', './template/default', 'mobile/forum/discuz')
 ;?>
 <!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
